@@ -467,10 +467,10 @@
         <div class="email-section">
           <p class="email-title">Subscribe</p>
           <form name="email" class="email-form">
-            <label for="email" class="email" name="email"> </label>
+            <label for="email" class="email-label" name="email"> </label>
             <input
               type="email"
-              class="email-text"
+              class="email-input"
               name="email"
               placeholder="E-mail"
             />
@@ -487,7 +487,7 @@
     <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="modal-btn">
-          <svg id="icon-close" width="8px" height="8px" class="modal-svg-btn">
+          <svg id="icon-close" width="8" height="8" class="modal-svg-btn">
             <use href="/images/icons.svg#icon-close" name="icon-close"></use>
           </svg>
         </button>
@@ -511,7 +511,7 @@
             </div>
           </div>
           <div class="modal-form-feild">
-            <label for="user-name" class="model-form-label">phone</label>
+            <label for="user-name" class="model-form-label">Phone</label>
             <div class="model-form-wraper">
               <input
                 type="tel"
@@ -526,7 +526,7 @@
           </div>
 
           <div class="modal-form-feild">
-            <label for="user-email" class="model-form-label">email</label>
+            <label for="user-email" class="model-form-label">Email</label>
             <div class="model-form-wraper">
               <input
                 type="email"
@@ -540,12 +540,12 @@
             </div>
           </div>
 
-          <div class="modal-form-feild">
-            <label for="user-message" class="model-form-label">Comment</label>
+          <div class="modal-form-feild comment-feild">
+            <label for="user-comment" class="model-form-label">Comment</label>
             <textarea
               class="madal-form-massage"
-              name="user-message"
-              id="user-message"
+              name="user-comment"
+              id="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
@@ -554,11 +554,12 @@
             <input
               class="modal-form-gremment-input visually-hidden"
               type="checkbox"
-              name="user-gremment"
-              id="user-gremment"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
             />
 
-            <label for="user-gremment" class="modal-form-gremment-text">
+            <label for="user-privacy" class="modal-form-gremment-text">
               <span class="modal-gremment-checkbox">
                 <svg class="modal-gremment-checkbox-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-galka"></use>
