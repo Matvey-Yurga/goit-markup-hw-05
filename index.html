@@ -464,7 +464,115 @@
             </li>
           </ul>
         </div>
+        <div class="email-section">
+          <p class="email-title">Subscribe</p>
+          <form name="email" class="email-form">
+            <label for="email" class="email" name="email"> </label>
+            <input
+              type="email"
+              class="email-text"
+              name="email"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="email-button">
+              Subscribe
+              <svg class="icon-telegram" width="24px" height="24px">
+                <use href="./images/icons.svg#icon-telegram"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button type="button" class="modal-btn">
+          <svg id="icon-close" width="8px" height="8px" class="modal-svg-btn">
+            <use href="/images/icons.svg#icon-close" name="icon-close"></use>
+          </svg>
+        </button>
+        <p class="modal-caption">
+          Leave your contacts and we will call you back
+        </p>
+
+        <form class="modal-form" name="revio">
+          <div class="modal-form-feild">
+            <label for="user-name" class="model-form-label">Name</label>
+            <div class="model-form-wraper">
+              <input
+                type="text"
+                class="modal-form-input"
+                id="user-name"
+                name="user-name"
+              />
+              <svg class="modal-form-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-form-feild">
+            <label for="user-name" class="model-form-label">phone</label>
+            <div class="model-form-wraper">
+              <input
+                type="tel"
+                class="modal-form-input"
+                id="user-phone"
+                name="user-phone"
+              />
+              <svg class="modal-form-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="modal-form-feild">
+            <label for="user-email" class="model-form-label">email</label>
+            <div class="model-form-wraper">
+              <input
+                type="email"
+                class="modal-form-input"
+                id="user-email"
+                name="user-email"
+              />
+              <svg class="modal-form-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="modal-form-feild">
+            <label for="user-message" class="model-form-label">Comment</label>
+            <textarea
+              class="madal-form-massage"
+              name="user-message"
+              id="user-message"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+
+          <div class="modal-form-gremment">
+            <input
+              class="modal-form-gremment-input visually-hidden"
+              type="checkbox"
+              name="user-gremment"
+              id="user-gremment"
+            />
+
+            <label for="user-gremment" class="modal-form-gremment-text">
+              <span class="modal-gremment-checkbox">
+                <svg class="modal-gremment-checkbox-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-galka"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="" class="modal-form-gremment-link">
+                Privacy Policy
+              </a></label
+            >
+          </div>
+          <button class="hero-button btn" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
