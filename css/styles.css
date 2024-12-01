@@ -454,7 +454,6 @@ padding: 120px 0 120px 0;
 .email-form{
         display: flex;
             align-items: center;
-            gap: 24px;
 }
 .email-title {
     font-weight: 500;
@@ -486,6 +485,7 @@ padding: 120px 0 120px 0;
     font-weight: 400;
     color: #ffffff;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    margin-right: 24px;
     }
 .email-input::placeholder{
 color: #ffffff;
@@ -502,7 +502,6 @@ color: #ffffff;
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 8px;
 
         background-color: #4d5ae5;
             border-radius: 4px;
@@ -590,7 +589,6 @@ right: 24px;
 }
 
 .modal-caption{
-    margin-top: 50px;
     margin-bottom: 16px;
     font-weight: 500;
         font-size: 16px;
